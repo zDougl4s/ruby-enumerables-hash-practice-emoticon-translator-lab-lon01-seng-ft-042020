@@ -36,8 +36,8 @@ def get_english_meaning(emoticons,marico)
   # code goes here
   new_emoticons = load_library(emoticons)
   new_emoticons.each do |word, carita|
-     if carita[:japanese] == marico
-       return word
+      carita[:japanese] == marico
+        word
 
      end
    end
