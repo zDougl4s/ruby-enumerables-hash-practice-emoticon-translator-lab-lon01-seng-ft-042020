@@ -39,7 +39,7 @@ def get_english_meaning(emoticons,marico)
       carita[:japanese] == marico
         word
 
-     end
+
    end
    'Sorry, that emoticon was not found'
  end
